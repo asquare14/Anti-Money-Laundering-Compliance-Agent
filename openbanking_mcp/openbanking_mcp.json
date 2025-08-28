@@ -1,0 +1,30 @@
+{
+    "name": "aml-banking-agent",
+    "description": "Fetch and analyze transactions from EnableBanking API for AML checks",
+    "entry": "mcp_tool.py",
+    "functions": [
+        {
+            "name": "fetch_accounts",
+            "description": "Retrieve linked bank accounts from the EnableBanking API",
+            "parameters": {"type": "object", "properties": {}, "required": []}
+        },
+        {
+            "name": "fetch_transactions",
+            "description": "Retrieve transactions for a given account UID",
+            "parameters": {
+                "type": "object",
+                "properties": {"account_uid": {"type": "string"}},
+                "required": ["account_uid"]
+            }
+        },
+        {
+            "name": "complete_authorization",
+            "description": "Complete the authorization process",
+            "parameters": {
+                "type": "object",
+                "properties": {"authorization_code": {"type": "string"}},
+                "required": ["authorization_code"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+APP_ID = "1a1d90ee-ee4f-488d-9bd7-fd5a161071fa"
+KEY_PATH = "openbanking_mcp/aml-agent.pem"
+REDIRECT_URL = "http://127.0.0.1:8765/callback"
+API = "https://api.enablebanking.com"
+EMAIL_ADDRESS = "atibhi@gmail.com"
