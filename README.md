@@ -77,15 +77,12 @@ Tools: fetch_accounts, fetch_transactions, complete_authorization
 
 1. Go to https://enablebanking.com/cp/applications and create an application.
 2. Add http://127.0.0.1:8765/callback in allowed redirect uris.
-3. Once your app is created, download a pem file and the app-id and keep it handy for running the application.
+3. Once your app is created, download a pem file and the app-id and keep it handy for running the application. Add the pem file in the openbanking-mcp folder and app-id in the config.
 4. Add these to openbanking_config.py along with email that you want SAR report to go to.
 5. Next go to https://enablebanking.com/cp/mock-aspsp
 6. Create a mock account and mock transactions.
 7. You can use chatgpt to generate mock shady transactions.
 
-Note: I have for now committed my own .pem file and app id so that you can run the project out of box
-as I didn't have time to integrate with a key management service. Ideally this should not be done and these will
-be deactivated after the hackathon.
 
 ## Running locally
 ```bash
