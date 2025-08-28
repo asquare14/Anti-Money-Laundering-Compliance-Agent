@@ -30,26 +30,6 @@ Demo - https://www.youtube.com/watch?v=kgmcXldp_-M
 
 This makes the system scalable, plug-and-play, and adaptable for banks, payment processors, and AML compliance teams.
 
-### Creativity and Originality
-
-- **MCP-first architecture**: Created my own open banking MCP for the project. The project integrates MCP servers with AI agents, enabling tool registration and chaining.
-
-- **Open Banking synergy**: Combines bank APIs with compliance automation, something rarely seen in hackathon demos.
-
-- **Multi-agent design**: Transaction Retrieval Agent for secure data fetches, Compliance Agent for AML checks, powered by both deterministic rules and LLM reasoning, SAR Generator Agent for formatted, regulator-ready reports.
-
-- **Future scalability**: Architecture is modular — ready to integrate more agents like periodic monitoring, graph analysis for money flow, or human-in-the-loop audit approvals.
-
-### Learning and Growth
-
-- Gained expertise in Open Banking and the Enable Banking API, including authentication, JWT signing, and secure session handling.
-
-- Learned the MCP protocol and implemented my first evert MCP and integrated it with Portia SDK for smooth tool orchestration.
-
-- Improved prompt engineering and multi-agent coordination for deterministic + LLM hybrid pipelines.
-
-- Learned to debug real-world integration issues, including OAuth flows, sandbox inconsistencies, and MCP stdio communication.
-
 
 ## Tech stack:
 
@@ -67,7 +47,7 @@ This makes the system scalable, plug-and-play, and adaptable for banks, payment 
 
 ### Core Components
 1. **Financial Data Agent**: AI agent that gets the banking transactions.
-2. **Open Banking MCP Server**: — MCP service layering on a custom EnableBanking client to provide AI-accessible tools for financial data access and payments.
+2. **Enable Banking MCP Server**: — MCP service layering on a custom EnableBanking client to provide AI-accessible tools for financial data access and payments.
 Tools: fetch_accounts, fetch_transactions, complete_authorization
 3. **AML Analysis Engine**: AI agent that flags transactions as AML.
 4. **SAR Report Generator**: AI agent that generates automated regulatory report creation.
