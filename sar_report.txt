@@ -1,0 +1,27 @@
+Suspicious Activity Report (SAR)
+
+1. Summary of Suspicious Activity  
+Four transactions were flagged for suspicious activity out of a total of seven. The flagged transactions include high-value international transfers to high-risk jurisdictions (UAE, Cayman Islands) and a large purchase of cryptocurrency.
+
+2. Reason for Suspicion  
+The transactions were flagged due to the movement of significant funds to high-risk jurisdictions and a substantial cryptocurrency purchase. These activities are inconsistent with standard transaction patterns and present elevated money laundering risks.
+
+3. Risk Indicators  
+- High-value international transfers  
+- Destinations include high-risk jurisdictions (UAE, Cayman Islands)  
+- Large cryptocurrency purchase  
+- Multiple suspicious transactions within a short period
+
+4. Flagged Transactions  
+- tx1003 | Not given | 9,800.00 EUR | UAE | High-value international transfer to high-risk jurisdiction  
+- tx1002 | Not given | 8,700.00 EUR | Not specified | Purchase of cryptocurrency, flagged for AML review  
+- h7sd9  | Not given | 12,500.00 EUR | Cayman Islands | International wire transfer to high-risk jurisdiction  
+- tx1008 | Not given | 9,800.00 EUR | UAE | High-value international transfer to high-risk jurisdiction  
+
+5. Overall Risk  
+High
+
+6. Recommendations  
+- File SAR  
+- Enhanced Due Diligence (EDD)  
+- Ongoing monitoring of account activity

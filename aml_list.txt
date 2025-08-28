@@ -1,0 +1,40 @@
+{
+  "flagged_transactions": [
+    {
+      "entry_reference": "tx1003",
+      "reason": "High-value international transfer to high-risk jurisdiction (UAE), amount: 9800.00 EUR"
+    },
+    {
+      "entry_reference": "tx1002",
+      "reason": "Purchase of cryptocurrency, flagged for AML review, amount: 8700.00 EUR"
+    },
+    {
+      "entry_reference": "h7sd9",
+      "reason": "International wire transfer to Cayman Islands (high-risk jurisdiction), amount: 12500.00 EUR"
+    },
+    {
+      "entry_reference": "tx1008",
+      "reason": "High-value international transfer to high-risk jurisdiction (UAE), amount: 9800.00 EUR"
+    }
+  ],
+  "clean_transactions": [
+    {
+      "entry_reference": "tx2001"
+    },
+    {
+      "entry_reference": "jtlcp"
+    },
+    {
+      "entry_reference": "tx2003"
+    }
+  ],
+  "summary": {
+    "total_transactions": 7,
+    "flagged_count": 4,
+    "clean_count": 3,
+    "flagged_reasons": [
+      "High-value international transfers to high-risk jurisdictions (UAE, Cayman Islands)",
+      "Large cryptocurrency purchase"
+    ]
+  }
+}

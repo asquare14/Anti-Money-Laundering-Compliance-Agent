@@ -1,0 +1,114 @@
+[
+  {
+    "entry_reference": "tx2001",
+    "booking_date": "2025-08-23",
+    "value_date": "2025-08-23",
+    "transaction_type": "Debit",
+    "amount": {
+      "currency": "EUR",
+      "value": "120.75"
+    },
+    "creditor": {
+      "name": "Tesco Stores Ltd",
+      "address": null
+    },
+    "debtor": null,
+    "description": "Grocery shopping at Tesco"
+  },
+  {
+    "entry_reference": "tx1003",
+    "booking_date": "2025-08-23",
+    "value_date": "2025-08-23",
+    "transaction_type": "Debit",
+    "amount": {
+      "currency": "EUR",
+      "value": "9800.00"
+    },
+    "creditor": {
+      "name": "Ahmed Khan (UAE)",
+      "address": null
+    },
+    "debtor": null,
+    "description": "High-value international transfer to high-risk jurisdiction"
+  },
+  {
+    "entry_reference": "tx1002",
+    "booking_date": "2025-08-22",
+    "value_date": "2025-08-22",
+    "transaction_type": "Debit",
+    "amount": {
+      "currency": "EUR",
+      "value": "8700.00"
+    },
+    "creditor": {
+      "name": "QuickSwap Crypto Exchange",
+      "address": null
+    },
+    "debtor": null,
+    "description": "Purchase of cryptocurrency - flagged for AML review"
+  },
+  {
+    "entry_reference": "h7sd9",
+    "booking_date": "2025-08-22",
+    "value_date": "2025-08-21",
+    "transaction_type": "Debit",
+    "amount": {
+      "currency": "EUR",
+      "value": "12500.00"
+    },
+    "creditor": {
+      "name": "XYZ Corp (Cayman Islands)",
+      "address": null
+    },
+    "debtor": null,
+    "description": "International Wire Transfer - XYZ Corp Cayman Islands"
+  },
+  {
+    "entry_reference": "tx1008",
+    "booking_date": "2025-08-22",
+    "value_date": "2025-08-22",
+    "transaction_type": "Debit",
+    "amount": {
+      "currency": "EUR",
+      "value": "9800.00"
+    },
+    "creditor": {
+      "name": "Shahrukh Khan (UAE)",
+      "address": null
+    },
+    "debtor": null,
+    "description": "High-value international transfer to high-risk jurisdiction"
+  },
+  {
+    "entry_reference": "jtlcp",
+    "booking_date": "2025-08-21",
+    "value_date": "2025-08-20",
+    "transaction_type": "Credit",
+    "amount": {
+      "currency": "EUR",
+      "value": "0.79"
+    },
+    "creditor": {
+      "name": "Oliver Nieminen",
+      "address": null
+    },
+    "debtor": null,
+    "description": "Oliver Nieminen-CRDT-0.79-jtlcp"
+  },
+  {
+    "entry_reference": "tx2003",
+    "booking_date": "2025-08-20",
+    "value_date": "2025-08-20",
+    "transaction_type": "Credit",
+    "amount": {
+      "currency": "EUR",
+      "value": "3200.00"
+    },
+    "creditor": {
+      "name": "TechCorp Ltd",
+      "address": null
+    },
+    "debtor": null,
+    "description": "Monthly Salary Payment"
+  }
+]
